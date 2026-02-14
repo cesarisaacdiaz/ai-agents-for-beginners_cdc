@@ -1,0 +1,13 @@
+# --- Framework del Agente (Todo alineado a la versión ...123) ---
+agent-framework==1.0.0b260123
+agent-framework-core==1.0.0b260123
+agent-framework-durabletask==1.0.0b260123
+agent-framework-github-copilot==1.0.0b260123
+agent-framework-orchestrations==1.0.0b260123
+agent-framework-azure-ai==1.0.0b260123
+
+# --- Dependencias de Semantic Kernel (Para evitar el error de OpenAI) ---
+# Semantic Kernel 1.39 exige OpenAI versión 1.x, no la 2.x
+openai<2.0.0
+pydantic<2.12
+azure-ai-projects~=1.0.0b12
